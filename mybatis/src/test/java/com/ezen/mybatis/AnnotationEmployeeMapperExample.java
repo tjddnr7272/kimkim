@@ -19,7 +19,7 @@ public class AnnotationEmployeeMapperExample {
 		String resource = "mybatis-config.xml";
 		
 		Reader reader = null;
-		try {
+		try { ///수정 
 			reader = Resources.getResourceAsReader(resource);
 		} catch (IOException e) {
 			e.printStackTrace();
